@@ -24,7 +24,6 @@ return {
 
         telescope.setup({
             defaults = {
-                file_ignore_patterns = { "build", ".svn" },
                 path_display = { "smart" },
                 mappings = {
                     i = {
