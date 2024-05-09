@@ -100,6 +100,12 @@ return {
           end,
         })
       end,
+      ["clangd"] = function()
+        -- configure clangd language server
+        lspconfig["clangd"].setup({
+          capabilities = capabilities,
+        })
+      end,
       ["graphql"] = function()
         -- configure graphql language server
         lspconfig["graphql"].setup({
